@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*********Nav barre*/
+
+.Nav{
+  min-height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+.Boutons{
+  display: flex;
+  flex-direction: row;
+}
+
+.logo_0{
+  border-radius: 50%;
+}
+
+.logo_1{
+  border-radius: 50%;
+}
+
+.logo_2{
+  border-radius: 50%;
+}
+
+
+header{
+  background-color: black;
+  color: white;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  
+  }
+
+header ul{
+    list-style-type: none;
+    padding: 0 60px;
+
+  }
+
+
+li{
+  padding: 0 60px;
+  font-family: "PT Mono", sans-serif;
+  font-size: 12px;
+}
+
+/*******Background image*/
+
+
+#image_principale{
+  z-index: 0 ;
+  position: absolute;
+}
+
+#image_secondaire{
+  z-index: 1;
+  filter: drop-shadow ();
+  position: relative;      
+  }
+
+
+/*******Footer*/
+
+.background_footer{
+  position: absolute;
+  background-color: #DEB522;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  position: sticky;
+  margin-top: 53.5%;
+  
+}
+
+#bouton{
+  text-decoration: none;
+  background-color: #6479E7;
+  padding: 25px 0px 25px 0px;
+  border-radius: 25px;
+  max-width: 300px;
+  min-width: 250px;
+  margin-top: 15px;
+
+}
+
+.jouer_gratuitement{
+  text-align: center;
+  width: 33.33vw;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 20px;
+  background-color: #DEB522;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.icone{
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.appstore_googleplay{
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  width: 33.33vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.mid{
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px 10px 20px;
+  background-color: black;
+  color: white;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.left{
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px 10px 20px;
+  margin: 10px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+}
+
+.right{
+  width: 33.33vw;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+
+}
+
+#texte1{
+    color : white;
+    font-size: 40px;
+  }
+
+/* #texte2{
+  color : white;
+  font-size: 20px;
+} */
+
+
+
