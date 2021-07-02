@@ -91,6 +91,7 @@ li{
 }
 
 #bouton{
+  position:relative;
   text-decoration: none;
   background-color: #6479E7;
   padding: 25px 0px 25px 0px;
@@ -98,7 +99,15 @@ li{
   max-width: 300px;
   min-width: 250px;
   margin-top: 15px;
+  border: none;
+  cursor: pointer;
+  box-shadow:black;
 
+}
+
+#bouton:hover{
+  box-shadow: black;
+  top: 2px;
 }
 
 .jouer_gratuitement{
@@ -136,6 +145,8 @@ li{
   color: white;
   margin: 10px;
   border-radius: 15px;
+  border: none;
+  cursor: pointer;
 }
 
 .left{
@@ -146,6 +157,18 @@ li{
   border-radius: 15px;
   background-color: black;
   color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.mid:hover{
+  box-shadow:white;
+  top: 2px;
+}
+
+.left:hover{
+  box-shadow:white;
+  top: 2px;
 }
 
 .right{
