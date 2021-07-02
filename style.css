@@ -166,6 +166,7 @@ li{
   border-radius: 15px;
   border: none;
   cursor: pointer;
+
 }
 
 .left{
@@ -180,14 +181,10 @@ li{
   cursor: pointer;
 }
 
-.mid:hover{
+.icone:hover{
   box-shadow:white;
   top: 2px;
-}
 
-.left:hover{
-  box-shadow:white;
-  top: 2px;
 }
 
 .right{
